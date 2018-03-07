@@ -1,0 +1,220 @@
+a.returnlink:hover {
+   font-style: italic;
+    height: 120%;
+}
+
+div.decklist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40vw;
+}
+
+a.returnlink:focus {
+	font-style: italic;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    min-width: 100rem;
+}
+
+#title {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/*pokemon cards*/
+div.centerimages {
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.pokemongrid {
+    padding-left: 9%;
+    padding-top: 2rem;
+}
+div.pokemongrid img {
+    border-radius: 0.3125rem;
+}
+
+div.pokemongrid img {   
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+}
+
+div.pokemongrid img {
+    float: left;
+    width: 10rem;
+    margin: 2rem 2rem 1rem .2rem;
+}
+
+div.centergrid {
+   margin-left: 2%;
+   margin-bottom: 2rem;
+}
+
+img.pokemonimage:hover {
+    box-shadow: 0px 0px 5px 1.5px blue;
+    background-color: rgba(0,0,0,0.2)
+}
+
+#centeringtrainer{
+    position: relative;
+    text-align: center;
+    float: left;
+}
+
+/*enlarge image */
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	#myImg {
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+	
+	#myImg:hover {
+		opacity: 0.7;
+	}
+	/* The Modal (background) */
+	
+	.modal {
+		display: none;
+		/* Hidden by default */
+		position: fixed;
+		/* Stay in place */
+		z-index: 1;
+		/* Sit on top */
+		padding-top: 100px;
+		/* Location of the box */
+		left: 0;
+		top: 0;
+		width: 100%;
+		/* Full width */
+		height: 100%;
+		/* Full height */
+		overflow: auto;
+		/* Enable scroll if needed */
+		background-color: rgb(0, 0, 0);
+		/* Fallback color */
+		background-color: rgba(0, 0, 0, 0.9);
+		/* Black w/ opacity */
+	}
+	/* Modal Content (image) */
+	
+	.modal-content {
+		margin: auto;
+		display: block;
+		width: 80%;
+		max-width: 700px;
+	}
+	/* Caption of Modal Image */
+	
+	#caption {
+		margin: auto;
+		display: block;
+		width: 80%;
+		max-width: 700px;
+		text-align: center;
+		color: #ccc;
+		padding: 10px 0;
+		height: 150px;
+	}
+	/* Add Animation */
+	
+	.modal-content,
+	#caption {
+		-webkit-animation-name: zoom;
+		-webkit-animation-duration: 0.6s;
+		animation-name: zoom;
+		animation-duration: 0.6s;
+	}
+	
+	@-webkit-keyframes zoom {
+		from {
+			-webkit-transform: scale(0)
+		}
+		to {
+			-webkit-transform: scale(1)
+		}
+	}
+	
+	@keyframes zoom {
+		from {
+			transform: scale(0)
+		}
+		to {
+			transform: scale(1)
+		}
+	}
+	/* The Close Button */
+	
+	.close {
+		position: absolute;
+		top: 15px;
+		right: 35px;
+		color: #f1f1f1;
+		font-size: 40px;
+		font-weight: bold;
+		transition: 0.3s;
+	}
+	
+	.close:hover,
+	.close:focus {
+		color: #bbb;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	/* 100% Image Width on Smaller Screens */
+	
+	@media only screen and (max-width: 700px) {
+		.modal-content {
+			width: 100%;
+		}
+	}
+
+/*---DropDown Menu---*/
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 50rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}

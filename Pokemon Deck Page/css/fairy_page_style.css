@@ -1,0 +1,118 @@
+body {
+     background-image: url("../images/bgfairy01.png");
+     width: 100%;
+}
+
+a.returnlink {
+    text-shadow: 0.0625rem 0rem 0.6875rem rgb(128,202,169);
+    font-weight:normal;
+    color: black;
+    letter-spacing:1pt;
+    word-spacing:3pt;
+    font-size:1.3vw;
+    text-align:left;
+    font-family:arial black, sans-serif;
+    line-height:1;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+div.container-2 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: .1rem;
+    border: .25rem solid white;
+    background-image: -moz-linear-gradient( 90deg, rgb(101,62,115) 0%, rgb(118,94,133) 13%, rgb(97,142,148) 28%, rgb(93,172,152) 48%, rgb(128,202,169) 68%, rgb(162,224,202) 87%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(101,62,115) 0%, rgb(118,94,133) 13%, rgb(97,142,148) 28%, rgb(93,172,152) 48%, rgb(128,202,169) 68%, rgb(162,224,202) 87%);
+    background-image: -ms-linear-gradient( 90deg, rgb(101,62,115) 0%, rgb(118,94,133) 13%, rgb(97,142,148) 28%, rgb(93,172,152) 48%, rgb(128,202,169) 68%, rgb(162,224,202) 87%);
+}
+
+img.title {
+    margin-left: -2.1vw;
+    margin-bottom: -.25vw;
+    margin-top: -.5vw;
+}
+
+#box1 {
+    border: .25rem solid white;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #60a96c;
+    border-top-right-radius: 1.563rem;
+    border-top-left-radius: 1.563rem;
+    background-image: -moz-linear-gradient( 90deg, rgb(135,198,28) 0%, rgb(149,224,38) 13%, rgb(163,247,52) 28%, rgb(178,255,74) 48%, rgb(190,255,103) 68%, rgb(199,255,132) 87%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(135,198,28) 0%, rgb(149,224,38) 13%, rgb(163,247,52) 28%, rgb(178,255,74) 48%, rgb(190,255,103) 68%, rgb(199,255,132) 87%);
+    background-image: -ms-linear-gradient( 90deg, rgb(135,198,28) 0%, rgb(149,224,38) 13%, rgb(163,247,52) 28%, rgb(178,255,74) 48%, rgb(190,255,103) 68%, rgb(199,255,132) 87%);
+}
+
+div.box2 {
+    height: 72.63rem;
+    max-height: 72.63rem;
+}
+
+#coloringtitle {
+  font-size: 4vw;
+  font-family: Rockwell;
+  color: #610047;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -.2rem 0.2rem .2rem black;
+  margin-top: 1rem;
+  padding-top: .5rem;
+  }
+
+#clicktitle {
+  font-size: 2vw;
+  font-family: Rockwell;
+  color: #79005f;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -.2rem 0.2rem .2rem black;
+  margin-top: .5rem;
+  padding-top: .5rem;
+  margin-bottom: 1rem;
+  }
+
+img.pokemonimage {
+    height: 120%;
+    width: 10rem;
+    margin: 2rem;
+    margin-top: 4rem;
+    box-shadow: 0rem 0rem 0.3125rem 0.0625rem rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,0.2)
+}
+
+img.trainer{
+    margin-bottom: -.4%;
+    margin-top: 3rem;
+}
+
+div.trainertext  {
+    width: 45%;
+    position: absolute;
+    text-align: left;
+    /*margin-top: 68%;*/
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-border-radius: 0.1875rem;
+    border-radius: 0.1875rem;
+    font: normal normal bold 1.3vw "Comic Sans MS", cursive, sans-serif;
+    color: rgba(0,0,0,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: -0.0625rem -0.0625rem 0 rgba(0,0,0,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    margin-left: 2.7vw;
+    margin-top: 2vw;
+    font-size-adjust: 0.58;
+}

@@ -1,0 +1,115 @@
+body {
+    background-image: url("../images/frontpage02.png");
+    background-repeat: repeat-x;
+    background-color: #bfd3e1;
+}
+
+main a.links:hover {
+	padding: .1rem;
+	margin-left: .1rem;   
+}
+
+main a.links:focus {
+	padding: .1rem;
+	margin-left: .1rem; 
+}
+
+main a.boxlink:hover {
+  text-indent: .1vw;  
+}
+
+main a.boxlink:focus {
+	text-indent: .1vw;  
+}
+
+.headerbox {
+   background-image: url("../images/frontpage01.png");
+    background-repeat: repeat-x; 
+    background-color: #5a528b;
+    border-radius: 10px 10px 0px 0px;
+    border: .25rem outset #5a528b;
+}
+
+main p {
+  font: normal normal 1rem Georgia, serif;
+  color: white;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+main h1 {
+    text-align: center;
+    color: white;
+  font-family: 'Coiny', cursive;
+  /*font: normal normal bold 76px/1 Georgia, serif;*/
+  color: #ffda80;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: -1px -1px 0 rgba(255,255,255,1) ;
+}
+
+ul {
+  font: normal normal bold 1rem Georgia, serif;
+  color: white;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5) ;
+  list-style-image: url("../images/pokeballpoint.png");
+}
+
+ul.ullinks {
+ font: normal normal bold 1rem Georgia, serif;
+  color: darkblue;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: none;
+  list-style-image: url("../images/pokeballpoint.png");
+  text-decoration: underline;
+  margin-bottom:-5px;
+}
+
+main h2 {
+    text-align: center;
+    color: white;
+  font-family: 'Coiny', cursive;
+  /*font: normal normal bold 76px/1 Georgia, serif;*/
+  color: black;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: -1px -1px 0 rgba(255,255,255,1) ;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    list-style-type: circle;
+}
+
+/*#mainrow {
+    border: .25rem solid #e9a54d;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,.5);
+}*/
+
+.contentbox {
+    background-image: -moz-linear-gradient( 90deg, rgb(141,181,200) 0%, rgb(0,27,44) 0%, rgb(0,34,56) 13%, rgb(0,46,76) 28%, rgb(0,60,100) 48%, rgb(0,75,124) 68%, rgb(0,95,157) 87%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(141,181,200) 0%, rgb(0,27,44) 0%, rgb(0,34,56) 13%, rgb(0,46,76) 28%, rgb(0,60,100) 48%, rgb(0,75,124) 68%, rgb(0,95,157) 87%);
+    background-image: -ms-linear-gradient( 90deg, rgb(141,181,200) 0%, rgb(0,27,44) 0%, rgb(0,34,56) 13%, rgb(0,46,76) 28%, rgb(0,60,100) 48%, rgb(0,75,124) 68%, rgb(0,95,157) 87%);
+    box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,.5);
+    border-radius: .5rem;
+}
+
+.sidebar {
+  background-image: -moz-linear-gradient( 90deg, rgb(200,97,66) 0%, rgb(222,119,68) 0%, rgb(238,138,68) 13%, rgb(251,153,70) 28%, rgb(255,188,83) 48%, rgb(255,202,95) 68%, rgb(255,218,128) 87%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(200,97,66) 0%, rgb(222,119,68) 0%, rgb(238,138,68) 13%, rgb(251,153,70) 28%, rgb(255,188,83) 48%, rgb(255,202,95) 68%, rgb(255,218,128) 87%);
+  background-image: -ms-linear-gradient( 90deg, rgb(200,97,66) 0%, rgb(222,119,68) 0%, rgb(238,138,68) 13%, rgb(251,153,70) 28%, rgb(255,188,83) 48%, rgb(255,202,95) 68%, rgb(255,218,128) 87%);
+  box-shadow: 0px 0px 5px 1.5px rgba(0,0,0,.5);
+  border-radius: .5rem;
+}
